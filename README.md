@@ -35,7 +35,7 @@ The project uses [SauceDemo](https://www.saucedemo.com/) as the practice website
 ## Project Structure
 
 ```text
-codingmart-qa-automation/
+ecommerce-qa-automation/
 ├── conftest.py
 ├── tests/
 │   ├── test_login.py
@@ -74,8 +74,6 @@ python -m pytest tests/test_login.py -v
 
 ## Generate an HTML Test Report
 
-Run the tests and generate a self-contained HTML report:
-
 ```bash
 python -m pytest -v --html=reports/report.html --self-contained-html
 ```
@@ -84,7 +82,7 @@ Open `reports/report.html` in a web browser to view the test results.
 
 ## Current Test Coverage
 
-The initial suite contains nine test cases covering login, cart operations, and checkout validation.
+The test suite contains nine test cases covering login, cart operations, and checkout validation.
 
 ## Learning Objectives
 
